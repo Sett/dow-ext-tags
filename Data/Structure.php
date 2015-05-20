@@ -9,7 +9,7 @@ class Structure extends JM\Structure
 
     public function up()
     {
-        $this->createTable('tags',[
+        $this->createTable([
                 '`id` int(11) NOT NULL AUTO_INCREMENT',
                 '`name` varchar(30) NOT NULL',
                 '`issueId` int(11) NOT NULL',
@@ -22,6 +22,6 @@ class Structure extends JM\Structure
 
     public function down()
     {
-        $this->dropTable('tags');
+        $this->dropTable();
     }
 }
