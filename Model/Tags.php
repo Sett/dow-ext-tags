@@ -1,9 +1,9 @@
 <?php
-namespace Model\Dow;
+namespace Model\Dow\Ext;
 
 use Model;
 
 class Tags extends Model\Base
 {
-    public $table = 'dow_tags';
+    public $table = 'tags';
 }
