@@ -1,9 +1,7 @@
 <?php
-namespace Model\Dow\Ext;
+namespace Model\Ofweek\Extension;
 
-use Model;
-
-class Tags extends Model\Base
+class Tags extends Base
 {
     public $table = 'tags';
 }
